@@ -216,8 +216,14 @@ img {
     padding: 10px 32px;
     box-shadow: 0px 4px 4px var(--shadow-button-primary);
     min-width: 216px;
-    height: 50px;
 }
+
+.button.primary:hover,
+.button.primary:focus,
+.button.primary:active {
+    padding: 10px 32px;
+}
+
 /* features - section 2 */
 
 .visually-hidden {
@@ -336,7 +342,6 @@ img {
 }
 
 .footer-contacts {
-    width: 231px;
     font-style: normal;
 }
 
@@ -370,14 +375,12 @@ img {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
-    text-align: center;
     cursor: pointer;
 
     display: inline-block;
     border-radius: 4px;
-    border: 1px solid transparent;
+    border: none;
     min-width: 73px;
-    height: 38px;
     padding: 6px 22px;
     box-shadow: 0px 3px 1px var(--shadow-button-first), 0px 1px 2px var(--shadow-button-second), 0px 2px 2px var(--shadow-button-third);
 }
@@ -393,7 +396,7 @@ img {
 .filters-list {
     display: flex;
     justify-content: center;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 }
 
 .filters-list .item + .item {
